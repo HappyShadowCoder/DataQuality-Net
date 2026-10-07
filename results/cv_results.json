@@ -1,0 +1,919 @@
+{
+  "fold_results": [
+    {
+      "fold": 1,
+      "n_train": 1250,
+      "n_test": 300,
+      "neural_metrics": {
+        "outliers": {
+          "mae": 0.1526,
+          "pearson_r": 0.9082
+        },
+        "label_noise": {
+          "mae": 0.2901,
+          "pearson_r": 0.0611
+        },
+        "missingness": {
+          "mae": 0.2879,
+          "pearson_r": 0.0506
+        },
+        "duplicates": {
+          "mae": 0.2974,
+          "pearson_r": -0.0278
+        },
+        "class_imbalance": {
+          "mae": 0.2917,
+          "pearson_r": 0.0043
+        },
+        "redundant_features": {
+          "mae": 0.3068,
+          "pearson_r": -0.1141
+        },
+        "light_drop": {
+          "mae": 0.2147,
+          "pearson_r": 0.133
+        },
+        "heavy_drop": {
+          "mae": 0.146,
+          "pearson_r": 0.0499
+        }
+      },
+      "mean_metrics": {
+        "outliers": {
+          "mae": 0.2871,
+          "pearson_r": 0.0
+        },
+        "label_noise": {
+          "mae": 0.2927,
+          "pearson_r": 0.0
+        },
+        "missingness": {
+          "mae": 0.2892,
+          "pearson_r": 0.0
+        },
+        "duplicates": {
+          "mae": 0.3048,
+          "pearson_r": 0.0
+        },
+        "class_imbalance": {
+          "mae": 0.2895,
+          "pearson_r": 0.0
+        },
+        "redundant_features": {
+          "mae": 0.2971,
+          "pearson_r": 0.0
+        },
+        "light_drop": {
+          "mae": 0.2224,
+          "pearson_r": 0.0
+        },
+        "heavy_drop": {
+          "mae": 0.1539,
+          "pearson_r": 0.0
+        }
+      },
+      "heuristic_metrics": {
+        "outliers": {
+          "mae": 0.269,
+          "pearson_r": 0.6979
+        },
+        "label_noise": {
+          "mae": 0.2914,
+          "pearson_r": 0.0
+        },
+        "missingness": {
+          "mae": 0.0991,
+          "pearson_r": 0.8932
+        },
+        "duplicates": {
+          "mae": 0.2454,
+          "pearson_r": 0.3786
+        },
+        "class_imbalance": {
+          "mae": 0.2529,
+          "pearson_r": 0.3936
+        },
+        "redundant_features": {
+          "mae": 0.2791,
+          "pearson_r": 0.3458
+        },
+        "light_drop": {
+          "mae": 0.1835,
+          "pearson_r": -0.0965
+        },
+        "heavy_drop": {
+          "mae": 0.1468,
+          "pearson_r": -0.0708
+        }
+      },
+      "meta_gbm_metrics": {
+        "outliers": {
+          "mae": 0.0451,
+          "pearson_r": 0.9821
+        },
+        "label_noise": {
+          "mae": 0.2898,
+          "pearson_r": 0.0877
+        },
+        "missingness": {
+          "mae": 0.0446,
+          "pearson_r": 0.9768
+        },
+        "duplicates": {
+          "mae": 0.289,
+          "pearson_r": 0.2173
+        },
+        "class_imbalance": {
+          "mae": 0.2563,
+          "pearson_r": 0.4365
+        },
+        "redundant_features": {
+          "mae": 0.1511,
+          "pearson_r": 0.8548
+        },
+        "light_drop": {
+          "mae": 0.1929,
+          "pearson_r": 0.494
+        },
+        "heavy_drop": {
+          "mae": 0.1426,
+          "pearson_r": 0.2498
+        }
+      },
+      "conformal_coverage": {
+        "overall_mean_coverage": 0.8916666666666667,
+        "joint_coverage": 0.4166666666666667,
+        "per_dimension": {
+          "outliers": 0.9,
+          "label_noise": 0.9,
+          "missingness": 0.8933333333333333,
+          "duplicates": 0.9066666666666666,
+          "class_imbalance": 0.8566666666666667,
+          "redundant_features": 0.87,
+          "light_drop": 0.9166666666666666,
+          "heavy_drop": 0.89
+        },
+        "target_coverage": 0.9,
+        "n_test": 300,
+        "n_calibration": 250,
+        "quantiles": [
+          0.2476995438337326,
+          0.5220979452133179,
+          0.5311176180839539,
+          0.5623630881309509,
+          0.5180121660232544,
+          0.4680633544921875,
+          0.5345184803009033,
+          0.2777329385280609
+        ]
+      },
+      "training_history": {
+        "best_val_loss": 0.14115019142627716,
+        "n_epochs_run": 11
+      }
+    },
+    {
+      "fold": 2,
+      "n_train": 1250,
+      "n_test": 300,
+      "neural_metrics": {
+        "outliers": {
+          "mae": 0.0766,
+          "pearson_r": 0.9492
+        },
+        "label_noise": {
+          "mae": 0.2688,
+          "pearson_r": 0.058
+        },
+        "missingness": {
+          "mae": 0.2926,
+          "pearson_r": 0.1111
+        },
+        "duplicates": {
+          "mae": 0.2955,
+          "pearson_r": 0.0465
+        },
+        "class_imbalance": {
+          "mae": 0.2789,
+          "pearson_r": 0.1232
+        },
+        "redundant_features": {
+          "mae": 0.2792,
+          "pearson_r": 0.2522
+        },
+        "light_drop": {
+          "mae": 0.1719,
+          "pearson_r": 0.3583
+        },
+        "heavy_drop": {
+          "mae": 0.1309,
+          "pearson_r": 0.1063
+        }
+      },
+      "mean_metrics": {
+        "outliers": {
+          "mae": 0.3054,
+          "pearson_r": 0.0
+        },
+        "label_noise": {
+          "mae": 0.2712,
+          "pearson_r": 0.0
+        },
+        "missingness": {
+          "mae": 0.2928,
+          "pearson_r": 0.0
+        },
+        "duplicates": {
+          "mae": 0.2952,
+          "pearson_r": 0.0
+        },
+        "class_imbalance": {
+          "mae": 0.2834,
+          "pearson_r": 0.0
+        },
+        "redundant_features": {
+          "mae": 0.2925,
+          "pearson_r": 0.0
+        },
+        "light_drop": {
+          "mae": 0.1927,
+          "pearson_r": 0.0
+        },
+        "heavy_drop": {
+          "mae": 0.1353,
+          "pearson_r": 0.0
+        }
+      },
+      "heuristic_metrics": {
+        "outliers": {
+          "mae": 0.3156,
+          "pearson_r": 0.3182
+        },
+        "label_noise": {
+          "mae": 0.2875,
+          "pearson_r": 0.0
+        },
+        "missingness": {
+          "mae": 0.1013,
+          "pearson_r": 0.8639
+        },
+        "duplicates": {
+          "mae": 0.271,
+          "pearson_r": 0.5067
+        },
+        "class_imbalance": {
+          "mae": 0.2422,
+          "pearson_r": 0.3686
+        },
+        "redundant_features": {
+          "mae": 0.2731,
+          "pearson_r": 0.1524
+        },
+        "light_drop": {
+          "mae": 0.1837,
+          "pearson_r": -0.0672
+        },
+        "heavy_drop": {
+          "mae": 0.1334,
+          "pearson_r": 0.0193
+        }
+      },
+      "meta_gbm_metrics": {
+        "outliers": {
+          "mae": 0.0359,
+          "pearson_r": 0.9878
+        },
+        "label_noise": {
+          "mae": 0.2731,
+          "pearson_r": 0.0823
+        },
+        "missingness": {
+          "mae": 0.0477,
+          "pearson_r": 0.9669
+        },
+        "duplicates": {
+          "mae": 0.2863,
+          "pearson_r": 0.2796
+        },
+        "class_imbalance": {
+          "mae": 0.242,
+          "pearson_r": 0.4235
+        },
+        "redundant_features": {
+          "mae": 0.1224,
+          "pearson_r": 0.887
+        },
+        "light_drop": {
+          "mae": 0.139,
+          "pearson_r": 0.6405
+        },
+        "heavy_drop": {
+          "mae": 0.1337,
+          "pearson_r": 0.1883
+        }
+      },
+      "conformal_coverage": {
+        "overall_mean_coverage": 0.9141666666666667,
+        "joint_coverage": 0.51,
+        "per_dimension": {
+          "outliers": 0.93,
+          "label_noise": 0.9366666666666666,
+          "missingness": 0.9033333333333333,
+          "duplicates": 0.8833333333333333,
+          "class_imbalance": 0.8866666666666667,
+          "redundant_features": 0.91,
+          "light_drop": 0.9333333333333333,
+          "heavy_drop": 0.93
+        },
+        "target_coverage": 0.9,
+        "n_test": 300,
+        "n_calibration": 250,
+        "quantiles": [
+          0.23590156435966492,
+          0.5613258481025696,
+          0.46995964646339417,
+          0.5162917971611023,
+          0.4849821925163269,
+          0.4817989766597748,
+          0.3958032727241516,
+          0.27661773562431335
+        ]
+      },
+      "training_history": {
+        "best_val_loss": 0.11616263538599014,
+        "n_epochs_run": 25
+      }
+    },
+    {
+      "fold": 3,
+      "n_train": 1250,
+      "n_test": 300,
+      "neural_metrics": {
+        "outliers": {
+          "mae": 0.1479,
+          "pearson_r": 0.8369
+        },
+        "label_noise": {
+          "mae": 0.2968,
+          "pearson_r": -0.004
+        },
+        "missingness": {
+          "mae": 0.2981,
+          "pearson_r": 0.0329
+        },
+        "duplicates": {
+          "mae": 0.2902,
+          "pearson_r": 0.0524
+        },
+        "class_imbalance": {
+          "mae": 0.2805,
+          "pearson_r": 0.1512
+        },
+        "redundant_features": {
+          "mae": 0.3042,
+          "pearson_r": -0.069
+        },
+        "light_drop": {
+          "mae": 0.3163,
+          "pearson_r": 0.2877
+        },
+        "heavy_drop": {
+          "mae": 0.1803,
+          "pearson_r": 0.0845
+        }
+      },
+      "mean_metrics": {
+        "outliers": {
+          "mae": 0.3,
+          "pearson_r": 0.0
+        },
+        "label_noise": {
+          "mae": 0.2942,
+          "pearson_r": 0.0
+        },
+        "missingness": {
+          "mae": 0.2991,
+          "pearson_r": 0.0
+        },
+        "duplicates": {
+          "mae": 0.2882,
+          "pearson_r": 0.0
+        },
+        "class_imbalance": {
+          "mae": 0.2823,
+          "pearson_r": 0.0
+        },
+        "redundant_features": {
+          "mae": 0.3021,
+          "pearson_r": 0.0
+        },
+        "light_drop": {
+          "mae": 0.3333,
+          "pearson_r": 0.0
+        },
+        "heavy_drop": {
+          "mae": 0.1854,
+          "pearson_r": 0.0
+        }
+      },
+      "heuristic_metrics": {
+        "outliers": {
+          "mae": 0.265,
+          "pearson_r": 0.7192
+        },
+        "label_noise": {
+          "mae": 0.272,
+          "pearson_r": 0.0
+        },
+        "missingness": {
+          "mae": 0.0893,
+          "pearson_r": 0.9143
+        },
+        "duplicates": {
+          "mae": 0.2526,
+          "pearson_r": 0.5289
+        },
+        "class_imbalance": {
+          "mae": 0.1497,
+          "pearson_r": 0.5874
+        },
+        "redundant_features": {
+          "mae": 0.2877,
+          "pearson_r": 0.3215
+        },
+        "light_drop": {
+          "mae": 0.3501,
+          "pearson_r": -0.1356
+        },
+        "heavy_drop": {
+          "mae": 0.1819,
+          "pearson_r": -0.0617
+        }
+      },
+      "meta_gbm_metrics": {
+        "outliers": {
+          "mae": 0.045,
+          "pearson_r": 0.979
+        },
+        "label_noise": {
+          "mae": 0.3128,
+          "pearson_r": -0.0169
+        },
+        "missingness": {
+          "mae": 0.0404,
+          "pearson_r": 0.9838
+        },
+        "duplicates": {
+          "mae": 0.226,
+          "pearson_r": 0.5343
+        },
+        "class_imbalance": {
+          "mae": 0.2054,
+          "pearson_r": 0.5079
+        },
+        "redundant_features": {
+          "mae": 0.2243,
+          "pearson_r": 0.4956
+        },
+        "light_drop": {
+          "mae": 0.2751,
+          "pearson_r": 0.4328
+        },
+        "heavy_drop": {
+          "mae": 0.1867,
+          "pearson_r": 0.2085
+        }
+      },
+      "conformal_coverage": {
+        "overall_mean_coverage": 0.87125,
+        "joint_coverage": 0.36666666666666664,
+        "per_dimension": {
+          "outliers": 0.92,
+          "label_noise": 0.9,
+          "missingness": 0.87,
+          "duplicates": 0.9333333333333333,
+          "class_imbalance": 0.93,
+          "redundant_features": 0.8933333333333333,
+          "light_drop": 0.6766666666666666,
+          "heavy_drop": 0.8466666666666667
+        },
+        "target_coverage": 0.9,
+        "n_test": 300,
+        "n_calibration": 250,
+        "quantiles": [
+          0.2597147524356842,
+          0.485435426235199,
+          0.48774251341819763,
+          0.5314347147941589,
+          0.5056091547012329,
+          0.5147091150283813,
+          0.3923487067222595,
+          0.28391900658607483
+        ]
+      },
+      "training_history": {
+        "best_val_loss": 0.1307222619652748,
+        "n_epochs_run": 16
+      }
+    },
+    {
+      "fold": 4,
+      "n_train": 1250,
+      "n_test": 300,
+      "neural_metrics": {
+        "outliers": {
+          "mae": 0.107,
+          "pearson_r": 0.9264
+        },
+        "label_noise": {
+          "mae": 0.2869,
+          "pearson_r": 0.0018
+        },
+        "missingness": {
+          "mae": 0.3146,
+          "pearson_r": 0.0968
+        },
+        "duplicates": {
+          "mae": 0.2998,
+          "pearson_r": 0.01
+        },
+        "class_imbalance": {
+          "mae": 0.2869,
+          "pearson_r": -0.0445
+        },
+        "redundant_features": {
+          "mae": 0.299,
+          "pearson_r": 0.1046
+        },
+        "light_drop": {
+          "mae": 0.2654,
+          "pearson_r": 0.2262
+        },
+        "heavy_drop": {
+          "mae": 0.1632,
+          "pearson_r": 0.0781
+        }
+      },
+      "mean_metrics": {
+        "outliers": {
+          "mae": 0.3107,
+          "pearson_r": 0.0
+        },
+        "label_noise": {
+          "mae": 0.2877,
+          "pearson_r": 0.0
+        },
+        "missingness": {
+          "mae": 0.3166,
+          "pearson_r": 0.0
+        },
+        "duplicates": {
+          "mae": 0.2976,
+          "pearson_r": 0.0
+        },
+        "class_imbalance": {
+          "mae": 0.2867,
+          "pearson_r": 0.0
+        },
+        "redundant_features": {
+          "mae": 0.3,
+          "pearson_r": 0.0
+        },
+        "light_drop": {
+          "mae": 0.275,
+          "pearson_r": 0.0
+        },
+        "heavy_drop": {
+          "mae": 0.1684,
+          "pearson_r": 0.0
+        }
+      },
+      "heuristic_metrics": {
+        "outliers": {
+          "mae": 0.2793,
+          "pearson_r": 0.7826
+        },
+        "label_noise": {
+          "mae": 0.2939,
+          "pearson_r": 0.0
+        },
+        "missingness": {
+          "mae": 0.0831,
+          "pearson_r": 0.9254
+        },
+        "duplicates": {
+          "mae": 0.2621,
+          "pearson_r": 0.3971
+        },
+        "class_imbalance": {
+          "mae": 0.2032,
+          "pearson_r": 0.5137
+        },
+        "redundant_features": {
+          "mae": 0.3362,
+          "pearson_r": 0.1203
+        },
+        "light_drop": {
+          "mae": 0.275,
+          "pearson_r": -0.2655
+        },
+        "heavy_drop": {
+          "mae": 0.1738,
+          "pearson_r": -0.096
+        }
+      },
+      "meta_gbm_metrics": {
+        "outliers": {
+          "mae": 0.0413,
+          "pearson_r": 0.978
+        },
+        "label_noise": {
+          "mae": 0.2833,
+          "pearson_r": 0.1057
+        },
+        "missingness": {
+          "mae": 0.0345,
+          "pearson_r": 0.9877
+        },
+        "duplicates": {
+          "mae": 0.2373,
+          "pearson_r": 0.4374
+        },
+        "class_imbalance": {
+          "mae": 0.2269,
+          "pearson_r": 0.407
+        },
+        "redundant_features": {
+          "mae": 0.1784,
+          "pearson_r": 0.6861
+        },
+        "light_drop": {
+          "mae": 0.2086,
+          "pearson_r": 0.6975
+        },
+        "heavy_drop": {
+          "mae": 0.175,
+          "pearson_r": 0.2582
+        }
+      },
+      "conformal_coverage": {
+        "overall_mean_coverage": 0.8908333333333334,
+        "joint_coverage": 0.42333333333333334,
+        "per_dimension": {
+          "outliers": 0.9166666666666666,
+          "label_noise": 0.9,
+          "missingness": 0.8666666666666667,
+          "duplicates": 0.93,
+          "class_imbalance": 0.9366666666666666,
+          "redundant_features": 0.8933333333333333,
+          "light_drop": 0.8166666666666667,
+          "heavy_drop": 0.8666666666666667
+        },
+        "target_coverage": 0.9,
+        "n_test": 300,
+        "n_calibration": 250,
+        "quantiles": [
+          0.2177916020154953,
+          0.5215977430343628,
+          0.514002799987793,
+          0.5289075374603271,
+          0.5961784720420837,
+          0.5768413543701172,
+          0.5281332731246948,
+          0.3098272383213043
+        ]
+      },
+      "training_history": {
+        "best_val_loss": 0.16304585337638855,
+        "n_epochs_run": 13
+      }
+    },
+    {
+      "fold": 5,
+      "n_train": 1200,
+      "n_test": 350,
+      "neural_metrics": {
+        "outliers": {
+          "mae": 0.2853,
+          "pearson_r": 0.8037
+        },
+        "label_noise": {
+          "mae": 0.3036,
+          "pearson_r": -0.0823
+        },
+        "missingness": {
+          "mae": 0.3019,
+          "pearson_r": 0.0986
+        },
+        "duplicates": {
+          "mae": 0.3002,
+          "pearson_r": 0.0349
+        },
+        "class_imbalance": {
+          "mae": 0.2627,
+          "pearson_r": 0.0908
+        },
+        "redundant_features": {
+          "mae": 0.298,
+          "pearson_r": -0.2047
+        },
+        "light_drop": {
+          "mae": 0.1931,
+          "pearson_r": -0.2338
+        },
+        "heavy_drop": {
+          "mae": 0.1392,
+          "pearson_r": -0.2055
+        }
+      },
+      "mean_metrics": {
+        "outliers": {
+          "mae": 0.2852,
+          "pearson_r": 0.0
+        },
+        "label_noise": {
+          "mae": 0.3028,
+          "pearson_r": 0.0
+        },
+        "missingness": {
+          "mae": 0.3024,
+          "pearson_r": 0.0
+        },
+        "duplicates": {
+          "mae": 0.2994,
+          "pearson_r": 0.0
+        },
+        "class_imbalance": {
+          "mae": 0.2636,
+          "pearson_r": 0.0
+        },
+        "redundant_features": {
+          "mae": 0.2964,
+          "pearson_r": 0.0
+        },
+        "light_drop": {
+          "mae": 0.1922,
+          "pearson_r": 0.0
+        },
+        "heavy_drop": {
+          "mae": 0.1432,
+          "pearson_r": 0.0
+        }
+      },
+      "heuristic_metrics": {
+        "outliers": {
+          "mae": 0.2609,
+          "pearson_r": 0.7391
+        },
+        "label_noise": {
+          "mae": 0.3049,
+          "pearson_r": 0.0
+        },
+        "missingness": {
+          "mae": 0.0852,
+          "pearson_r": 0.9141
+        },
+        "duplicates": {
+          "mae": 0.3065,
+          "pearson_r": 0.1864
+        },
+        "class_imbalance": {
+          "mae": 0.2595,
+          "pearson_r": 0.0
+        },
+        "redundant_features": {
+          "mae": 0.2835,
+          "pearson_r": 0.4585
+        },
+        "light_drop": {
+          "mae": 0.1267,
+          "pearson_r": -0.0155
+        },
+        "heavy_drop": {
+          "mae": 0.1374,
+          "pearson_r": -0.028
+        }
+      },
+      "meta_gbm_metrics": {
+        "outliers": {
+          "mae": 0.057,
+          "pearson_r": 0.9359
+        },
+        "label_noise": {
+          "mae": 0.3005,
+          "pearson_r": 0.1048
+        },
+        "missingness": {
+          "mae": 0.0503,
+          "pearson_r": 0.972
+        },
+        "duplicates": {
+          "mae": 0.2736,
+          "pearson_r": 0.3208
+        },
+        "class_imbalance": {
+          "mae": 0.2507,
+          "pearson_r": 0.2186
+        },
+        "redundant_features": {
+          "mae": 0.1812,
+          "pearson_r": 0.6675
+        },
+        "light_drop": {
+          "mae": 0.205,
+          "pearson_r": 0.2195
+        },
+        "heavy_drop": {
+          "mae": 0.1487,
+          "pearson_r": -0.0182
+        }
+      },
+      "conformal_coverage": {
+        "overall_mean_coverage": 0.9242857142857143,
+        "joint_coverage": 0.5285714285714286,
+        "per_dimension": {
+          "outliers": 0.88,
+          "label_noise": 0.8857142857142857,
+          "missingness": 0.9057142857142857,
+          "duplicates": 0.8657142857142858,
+          "class_imbalance": 0.9371428571428572,
+          "redundant_features": 0.9342857142857143,
+          "light_drop": 1.0,
+          "heavy_drop": 0.9857142857142858
+        },
+        "target_coverage": 0.9,
+        "n_test": 350,
+        "n_calibration": 240,
+        "quantiles": [
+          0.46704959869384766,
+          0.5343635678291321,
+          0.535920262336731,
+          0.46990448236465454,
+          0.6338361501693726,
+          0.5607872009277344,
+          0.6523323655128479,
+          0.42378318309783936
+        ]
+      },
+      "training_history": {
+        "best_val_loss": 0.1773979216814041,
+        "n_epochs_run": 9
+      }
+    }
+  ],
+  "aggregated": {
+    "n_folds_completed": 5,
+    "neural": {
+      "mae": {
+        "mean": 0.2501,
+        "std": 0.068
+      },
+      "pearson_r": {
+        "mean": 0.1536,
+        "std": 0.3012
+      }
+    },
+    "mean_predictor": {
+      "mae": {
+        "mean": 0.2704,
+        "std": 0.051
+      },
+      "pearson_r": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "heuristic": {
+      "mae": {
+        "mean": 0.2274,
+        "std": 0.0757
+      },
+      "pearson_r": {
+        "mean": 0.3052,
+        "std": 0.3526
+      }
+    },
+    "meta_gbm": {
+      "mae": {
+        "mean": 0.1765,
+        "std": 0.0903
+      },
+      "pearson_r": {
+        "mean": 0.5215,
+        "std": 0.3346
+      }
+    },
+    "conformal_coverage": {
+      "mean": 0.8984,
+      "std": 0.0188,
+      "target": 0.9
+    }
+  },
+  "statistical_test": {
+    "test": "Wilcoxon signed-rank (paired, one-sided)",
+    "statistic": 15.0,
+    "p_value": 1.0,
+    "significant_at_alpha_0.05": false,
+    "interpretation": "Neural model NOT significantly better than MetaFeature+GBM (p\u22650.05)"
+  }
+}

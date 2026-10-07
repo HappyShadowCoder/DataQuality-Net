@@ -1,0 +1,268 @@
+[
+  {
+    "dataset_name": "Breast Cancer WDBC",
+    "path": "data/test/breast_cancer_wdbc.csv",
+    "rows": 569,
+    "cols": 31,
+    "dqn": {
+      "latency_ms": 37.45,
+      "usability_score": 76.8,
+      "grade": "B",
+      "remediated_score": 77.0,
+      "score_lift": 0.2,
+      "autofix_latency_ms": 25.14,
+      "autofix_actions": [
+        "Dropped 7 multicollinear redundant features: V3, V4, V13, V14, V21, V23, V24."
+      ],
+      "subscores": {
+        "outliers": 91.8,
+        "label_noise": 71.4,
+        "missingness": 91.0,
+        "duplicates": 90.6,
+        "class_imbalance": 75.7,
+        "redundant_features": 70.8
+      },
+      "degradation_estimates": {
+        "light_model_drop": 17.7,
+        "heavy_model_drop": 11.3
+      },
+      "deep_diagnostics": {
+        "target_leakage_features": 0,
+        "mahalanobis_outliers": 12,
+        "fuzzy_near_duplicates": 0,
+        "label_inconsistency_pct": 0.53,
+        "label_inconsistency_count": 3
+      }
+    },
+    "cleanlab": {
+      "latency_ms": 8.36,
+      "label_issues_found": 1,
+      "sample_evaluated": 569
+    },
+    "rules_profiling": {
+      "latency_ms": 2.27,
+      "missing_cells": 0,
+      "exact_duplicates": 0,
+      "zscore_outliers": 211,
+      "collinear_pairs_gt_90": 21
+    },
+    "empirical_lgbm_cv": {
+      "raw_acc": 0.9578,
+      "clean_acc": 0.9614,
+      "accuracy_gain_pct": 0.35
+    }
+  },
+  {
+    "dataset_name": "Indian Liver Patient",
+    "path": "data/test/indian_liver_patient.csv",
+    "rows": 583,
+    "cols": 11,
+    "dqn": {
+      "latency_ms": 14.46,
+      "usability_score": 74.6,
+      "grade": "B",
+      "remediated_score": 78.0,
+      "score_lift": 3.4,
+      "autofix_latency_ms": 13.62,
+      "autofix_actions": [
+        "Deduplicated 13 exact duplicate rows.",
+        "Balanced class distribution (reduced skew from 2.5:1 to 1.5:1 via stratified sampling)."
+      ],
+      "subscores": {
+        "outliers": 91.2,
+        "label_noise": 71.4,
+        "missingness": 91.0,
+        "duplicates": 85.8,
+        "class_imbalance": 65.7,
+        "redundant_features": 85.1
+      },
+      "degradation_estimates": {
+        "light_model_drop": 22.0,
+        "heavy_model_drop": 12.3
+      },
+      "deep_diagnostics": {
+        "target_leakage_features": 0,
+        "mahalanobis_outliers": 12,
+        "fuzzy_near_duplicates": 43,
+        "label_inconsistency_pct": 0.17,
+        "label_inconsistency_count": 1
+      }
+    },
+    "cleanlab": {
+      "latency_ms": 7.91,
+      "label_issues_found": 70,
+      "sample_evaluated": 583
+    },
+    "rules_profiling": {
+      "latency_ms": 0.99,
+      "missing_cells": 0,
+      "exact_duplicates": 13,
+      "zscore_outliers": 74,
+      "collinear_pairs_gt_90": 0
+    },
+    "empirical_lgbm_cv": {
+      "raw_acc": 0.6758,
+      "clean_acc": 0.6733,
+      "accuracy_gain_pct": -0.25
+    }
+  },
+  {
+    "dataset_name": "German Credit",
+    "path": "data/test/credit_g.csv",
+    "rows": 1000,
+    "cols": 21,
+    "dqn": {
+      "latency_ms": 36.39,
+      "usability_score": 76.0,
+      "grade": "B",
+      "remediated_score": 78.8,
+      "score_lift": 2.8,
+      "autofix_latency_ms": 30.36,
+      "autofix_actions": [
+        "Balanced class distribution (reduced skew from 2.3:1 to 1.5:1 via stratified sampling)."
+      ],
+      "subscores": {
+        "outliers": 94.4,
+        "label_noise": 71.3,
+        "missingness": 91.0,
+        "duplicates": 90.5,
+        "class_imbalance": 67.3,
+        "redundant_features": 88.4
+      },
+      "degradation_estimates": {
+        "light_model_drop": 22.4,
+        "heavy_model_drop": 12.4
+      },
+      "deep_diagnostics": {
+        "target_leakage_features": 0,
+        "mahalanobis_outliers": 20,
+        "fuzzy_near_duplicates": 3,
+        "label_inconsistency_pct": 3.6,
+        "label_inconsistency_count": 36
+      }
+    },
+    "cleanlab": {
+      "latency_ms": 7.0,
+      "label_issues_found": 188,
+      "sample_evaluated": 1000
+    },
+    "rules_profiling": {
+      "latency_ms": 2.41,
+      "missing_cells": 0,
+      "exact_duplicates": 0,
+      "zscore_outliers": 130,
+      "collinear_pairs_gt_90": 0
+    },
+    "empirical_lgbm_cv": {
+      "raw_acc": 0.763,
+      "clean_acc": 0.7,
+      "accuracy_gain_pct": -6.3
+    }
+  },
+  {
+    "dataset_name": "Wall Robot Navigation",
+    "path": "data/test/wall_robot_navigation.csv",
+    "rows": 5456,
+    "cols": 25,
+    "dqn": {
+      "latency_ms": 50.13,
+      "usability_score": 76.7,
+      "grade": "B",
+      "remediated_score": 80.4,
+      "score_lift": 3.7,
+      "autofix_latency_ms": 46.89,
+      "autofix_actions": [
+        "Balanced class distribution (reduced skew from 6.7:1 to 1.5:1 via stratified sampling)."
+      ],
+      "subscores": {
+        "outliers": 90.6,
+        "label_noise": 71.4,
+        "missingness": 91.0,
+        "duplicates": 90.5,
+        "class_imbalance": 70.6,
+        "redundant_features": 88.2
+      },
+      "degradation_estimates": {
+        "light_model_drop": 20.1,
+        "heavy_model_drop": 11.9
+      },
+      "deep_diagnostics": {
+        "target_leakage_features": 0,
+        "mahalanobis_outliers": 20,
+        "fuzzy_near_duplicates": 528,
+        "label_inconsistency_pct": 9.1,
+        "label_inconsistency_count": 91
+      }
+    },
+    "cleanlab": {
+      "latency_ms": 78.55,
+      "label_issues_found": 1138,
+      "sample_evaluated": 5000
+    },
+    "rules_profiling": {
+      "latency_ms": 5.31,
+      "missing_cells": 0,
+      "exact_duplicates": 0,
+      "zscore_outliers": 1871,
+      "collinear_pairs_gt_90": 0
+    },
+    "empirical_lgbm_cv": {
+      "raw_acc": 0.975,
+      "clean_acc": 0.9922,
+      "accuracy_gain_pct": 1.72
+    }
+  },
+  {
+    "dataset_name": "Bank Marketing",
+    "path": "data/test/bank_marketing.csv",
+    "rows": 45211,
+    "cols": 17,
+    "dqn": {
+      "latency_ms": 130.61,
+      "usability_score": 70.8,
+      "grade": "B",
+      "remediated_score": 78.8,
+      "score_lift": 8.0,
+      "autofix_latency_ms": 122.37,
+      "autofix_actions": [
+        "Balanced class distribution (reduced skew from 7.5:1 to 1.5:1 via stratified sampling)."
+      ],
+      "subscores": {
+        "outliers": 93.6,
+        "label_noise": 71.4,
+        "missingness": 91.0,
+        "duplicates": 90.5,
+        "class_imbalance": 45.3,
+        "redundant_features": 87.0
+      },
+      "degradation_estimates": {
+        "light_model_drop": 21.4,
+        "heavy_model_drop": 12.1
+      },
+      "deep_diagnostics": {
+        "target_leakage_features": 0,
+        "mahalanobis_outliers": 20,
+        "fuzzy_near_duplicates": 688,
+        "label_inconsistency_pct": 0.1,
+        "label_inconsistency_count": 1
+      }
+    },
+    "cleanlab": {
+      "latency_ms": 12.52,
+      "label_issues_found": 91,
+      "sample_evaluated": 5000
+    },
+    "rules_profiling": {
+      "latency_ms": 36.58,
+      "missing_cells": 0,
+      "exact_duplicates": 0,
+      "zscore_outliers": 6049,
+      "collinear_pairs_gt_90": 0
+    },
+    "empirical_lgbm_cv": {
+      "raw_acc": 0.9705,
+      "clean_acc": 1.0,
+      "accuracy_gain_pct": 2.95
+    }
+  }
+]

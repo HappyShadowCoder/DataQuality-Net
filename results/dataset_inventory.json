@@ -1,0 +1,250 @@
+[
+  {
+    "id": 23,
+    "name": "cmc",
+    "task": "classification",
+    "rows": 1473,
+    "cols": 9,
+    "quality_note": null
+  },
+  {
+    "id": 31,
+    "name": "credit-g",
+    "task": "classification",
+    "rows": 1000,
+    "cols": 20,
+    "quality_note": "known label noise and missing value patterns (UCI documentation)"
+  },
+  {
+    "id": 37,
+    "name": "diabetes",
+    "task": "classification",
+    "rows": 768,
+    "cols": 8,
+    "quality_note": null
+  },
+  {
+    "id": 40,
+    "name": "sonar",
+    "task": "classification",
+    "rows": 208,
+    "cols": 60,
+    "quality_note": null
+  },
+  {
+    "id": 42,
+    "name": "soybean",
+    "task": "classification",
+    "rows": 683,
+    "cols": 35,
+    "quality_note": null
+  },
+  {
+    "id": 44,
+    "name": "spambase",
+    "task": "classification",
+    "rows": 4601,
+    "cols": 57,
+    "quality_note": null
+  },
+  {
+    "id": 54,
+    "name": "vehicle",
+    "task": "classification",
+    "rows": 846,
+    "cols": 18,
+    "quality_note": null
+  },
+  {
+    "id": 59,
+    "name": "ionosphere",
+    "task": "classification",
+    "rows": 351,
+    "cols": 33,
+    "quality_note": null
+  },
+  {
+    "id": 188,
+    "name": "eucalyptus",
+    "task": "classification",
+    "rows": 736,
+    "cols": 19,
+    "quality_note": null
+  },
+  {
+    "id": 307,
+    "name": "vowel",
+    "task": "classification",
+    "rows": 990,
+    "cols": 12,
+    "quality_note": null
+  },
+  {
+    "id": 458,
+    "name": "analcatdata_authorship",
+    "task": "classification",
+    "rows": 841,
+    "cols": 70,
+    "quality_note": null
+  },
+  {
+    "id": 469,
+    "name": "analcatdata_dmft",
+    "task": "classification",
+    "rows": 797,
+    "cols": 4,
+    "quality_note": null
+  },
+  {
+    "id": 1049,
+    "name": "pc4",
+    "task": "classification",
+    "rows": 1458,
+    "cols": 37,
+    "quality_note": null
+  },
+  {
+    "id": 1050,
+    "name": "pc3",
+    "task": "classification",
+    "rows": 1563,
+    "cols": 37,
+    "quality_note": null
+  },
+  {
+    "id": 1063,
+    "name": "kc2",
+    "task": "classification",
+    "rows": 522,
+    "cols": 21,
+    "quality_note": null
+  },
+  {
+    "id": 1067,
+    "name": "kc1",
+    "task": "classification",
+    "rows": 2109,
+    "cols": 21,
+    "quality_note": null
+  },
+  {
+    "id": 1068,
+    "name": "pc1",
+    "task": "classification",
+    "rows": 1109,
+    "cols": 21,
+    "quality_note": null
+  },
+  {
+    "id": 1461,
+    "name": "bank-marketing",
+    "task": "classification",
+    "rows": 20000,
+    "cols": 16,
+    "quality_note": "severe class imbalance ~88% negative class (Moro et al. 2014)"
+  },
+  {
+    "id": 1480,
+    "name": "ilpd",
+    "task": "classification",
+    "rows": 583,
+    "cols": 10,
+    "quality_note": null
+  },
+  {
+    "id": 1494,
+    "name": "qsar-biodeg",
+    "task": "classification",
+    "rows": 1055,
+    "cols": 41,
+    "quality_note": null
+  },
+  {
+    "id": 1497,
+    "name": "wall-robot-navigation",
+    "task": "classification",
+    "rows": 5456,
+    "cols": 24,
+    "quality_note": null
+  },
+  {
+    "id": 1510,
+    "name": "wdbc",
+    "task": "classification",
+    "rows": 569,
+    "cols": 30,
+    "quality_note": null
+  },
+  {
+    "id": 4534,
+    "name": "PhishingWebsites",
+    "task": "classification",
+    "rows": 11055,
+    "cols": 30,
+    "quality_note": null
+  },
+  {
+    "id": 40687,
+    "name": "solar-flare",
+    "task": "classification",
+    "rows": 1066,
+    "cols": 11,
+    "quality_note": null
+  },
+  {
+    "id": 197,
+    "name": "cpu_act",
+    "task": "regression",
+    "rows": 8192,
+    "cols": 21,
+    "quality_note": null
+  },
+  {
+    "id": 216,
+    "name": "elevators",
+    "task": "regression",
+    "rows": 16599,
+    "cols": 18,
+    "quality_note": null
+  },
+  {
+    "id": 507,
+    "name": "space_ga",
+    "task": "regression",
+    "rows": 3107,
+    "cols": 6,
+    "quality_note": null
+  },
+  {
+    "id": 560,
+    "name": "bodyfat",
+    "task": "regression",
+    "rows": 252,
+    "cols": 14,
+    "quality_note": null
+  },
+  {
+    "id": 564,
+    "name": "fried",
+    "task": "regression",
+    "rows": 20000,
+    "cols": 10,
+    "quality_note": null
+  },
+  {
+    "id": 586,
+    "name": "fri_c3_1000_25",
+    "task": "regression",
+    "rows": 1000,
+    "cols": 25,
+    "quality_note": null
+  },
+  {
+    "id": 589,
+    "name": "fri_c2_1000_25",
+    "task": "regression",
+    "rows": 1000,
+    "cols": 25,
+    "quality_note": null
+  }
+]

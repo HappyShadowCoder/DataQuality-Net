@@ -1,0 +1,123 @@
+{
+  "methodology_note": "Scale-up datasets (>20k rows) generated via synthetic bootstrapping matching schema statistics (mixture of normal/exponential/uniform/lognormal distributions, 5% MCAR). Used for benchmarking only.",
+  "benchmarks": [
+    {
+      "n_rows": 1000,
+      "n_cols": 10,
+      "task": "classification",
+      "inference_ms": 5.42,
+      "inference_rss_mb": 0.0,
+      "light_train_ms": 2.64,
+      "light_rss_mb": 0.0,
+      "heavy_train_ms": 27.22,
+      "heavy_rss_mb": 1.28,
+      "speedup_vs_light": 0.5,
+      "speedup_vs_heavy": 5.0,
+      "saves_vs_light": false,
+      "saves_vs_heavy": true,
+      "note": "Real-scale"
+    },
+    {
+      "n_rows": 1000,
+      "n_cols": 50,
+      "task": "classification",
+      "inference_ms": 18.91,
+      "inference_rss_mb": 0.03,
+      "light_train_ms": 3.32,
+      "light_rss_mb": 0.0,
+      "heavy_train_ms": 118.28,
+      "heavy_rss_mb": 0.0,
+      "speedup_vs_light": 0.2,
+      "speedup_vs_heavy": 6.3,
+      "saves_vs_light": false,
+      "saves_vs_heavy": true,
+      "note": "Real-scale"
+    },
+    {
+      "n_rows": 10000,
+      "n_cols": 10,
+      "task": "classification",
+      "inference_ms": 12.33,
+      "inference_rss_mb": 0.02,
+      "light_train_ms": 8.42,
+      "light_rss_mb": 0.0,
+      "heavy_train_ms": 102.75,
+      "heavy_rss_mb": 0.0,
+      "speedup_vs_light": 0.7,
+      "speedup_vs_heavy": 8.3,
+      "saves_vs_light": false,
+      "saves_vs_heavy": true,
+      "note": "Real-scale"
+    },
+    {
+      "n_rows": 10000,
+      "n_cols": 50,
+      "task": "classification",
+      "inference_ms": 48.7,
+      "inference_rss_mb": 0.0,
+      "light_train_ms": 10.87,
+      "light_rss_mb": 0.0,
+      "heavy_train_ms": 373.22,
+      "heavy_rss_mb": 0.0,
+      "speedup_vs_light": 0.2,
+      "speedup_vs_heavy": 7.7,
+      "saves_vs_light": false,
+      "saves_vs_heavy": true,
+      "note": "Real-scale"
+    },
+    {
+      "n_rows": 100000,
+      "n_cols": 10,
+      "task": "classification",
+      "inference_ms": 14.67,
+      "inference_rss_mb": 0.0,
+      "light_train_ms": 67.56,
+      "light_rss_mb": 17.27,
+      "heavy_train_ms": 642.64,
+      "heavy_rss_mb": 0.03,
+      "speedup_vs_light": 4.6,
+      "speedup_vs_heavy": 43.8,
+      "saves_vs_light": true,
+      "saves_vs_heavy": true,
+      "note": "Synthetic data (schema-matched)"
+    },
+    {
+      "n_rows": 100000,
+      "n_cols": 50,
+      "task": "classification",
+      "inference_ms": 50.56,
+      "inference_rss_mb": 0.0,
+      "light_train_ms": 113.43,
+      "light_rss_mb": 0.0,
+      "heavy_train_ms": 2012.65,
+      "heavy_rss_mb": 9.42,
+      "speedup_vs_light": 2.2,
+      "speedup_vs_heavy": 39.8,
+      "saves_vs_light": true,
+      "saves_vs_heavy": true,
+      "note": "Synthetic data (schema-matched)"
+    }
+  ],
+  "savings_summary": {
+    "regimes_with_savings_vs_light": [
+      "n=100,000, cols=10",
+      "n=100,000, cols=50"
+    ],
+    "regimes_with_savings_vs_heavy": [
+      "n=1,000, cols=10",
+      "n=1,000, cols=50",
+      "n=10,000, cols=10",
+      "n=10,000, cols=50",
+      "n=100,000, cols=10",
+      "n=100,000, cols=50"
+    ],
+    "regimes_with_NO_savings_vs_light": [
+      "n=1,000, cols=10",
+      "n=1,000, cols=50",
+      "n=10,000, cols=10",
+      "n=10,000, cols=50"
+    ],
+    "regimes_with_NO_savings_vs_heavy": [],
+    "honest_reporting_note": "Single-pass inference may be SLOWER than light models at small scale due to fixed PyTorch overhead. Savings are reported only for regimes where inference_ms < training_ms."
+  }
+}
