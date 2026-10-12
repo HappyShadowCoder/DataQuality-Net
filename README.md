@@ -3,7 +3,7 @@
 ## Invention Title
 **System and Method for Single-Pass Quality Assessment and Downstream Performance Estimation of Tabular Datasets Using Permutation-Invariant Encoders**
 
-- **Lead Inventor & Developer:** Swastiek Kala
+- **Inventors & Developers:** Akshit Yadav (Leader - 2430010380) | Swastiek Kala (2430010378) | Praneel Kapoor (2430010373)
 - **Academic Context:** 3rd Year Project-Based Learning (PBL)
 - **Patent Jurisdiction:** Indian Patents Act (1970), Form 2 Provisional Application
 
@@ -11,7 +11,7 @@
 
 ## Overview
 
-This repository implements a proof-of-concept (POC) prototype for automated tabular data quality assessment and downstream ML performance degradation estimation using permutation-invariant set encoders (DeepSets / Set Transformer). Designed and developed by **Swastiek Kala**, the system outputs a composite 0–100 usability score, 6 individual quality-dimension scores, and 2 downstream-degradation estimates in a single forward pass — without retraining any model on the dataset under assessment.
+This repository implements a proof-of-concept (POC) prototype for automated tabular data quality assessment and downstream ML performance degradation estimation using permutation-invariant set encoders (DeepSets / Set Transformer). Designed and developed by **Akshit Yadav** (Leader - 2430010380), **Swastiek Kala** (2430010378), and **Praneel Kapoor** (2430010373), the system outputs a composite 0–100 usability score, 6 individual quality-dimension scores, and 2 downstream-degradation estimates in a single forward pass — without retraining any model on the dataset under assessment.
 
 ---
 
